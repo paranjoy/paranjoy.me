@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=yes">    
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+<title>paranjoy.me</title>  
+<style>
+    body{
+        min-width: 956px;
+        background-image: url(peony_star_nebula_4k_8k-1920x1080.jpg) ;
+        background-size: cover;
+    }   
+    #menu{
+/*        border:1px solid black; */
+        width: auto;
+        height:125px;
+        padding: 0;
+        margin: none;
+        
+    }
+
+    .img-brand {
+        border-radius: 50%;
+        border-style:none;
+        float: left;
+}
+    #rr1{
+        display: block;
+        
+    }
+    #rr2{
+        display: none;
+        
+    }
+    .pic{
+        margin: 0;
+        position: relative;
+        display: inline-block;
+    }
+    .pic .img {
+/*         box-shadow: 20px 20px #807467;*/
+        margin: 0;
+        padding: 0;
+        display: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+       
+            
+            /* box-shadow: [horizontal offset] [vertical
+offset] [blur radius] [optional spread radius] [color]*/
+    }
+    .pic:hover .img {
+        display: inline;
+        border-radius: 50%;
+    }
+    .pic:hover .img1{
+    visibility: hidden;
+    }
+    .round{
+        border-radius: 50%;
+    }
+    
+    h3 a{
+        float: left;
+        text-decoration: none;
+        padding: 24px 20px;
+        font-family: cursive,sans-serif;
+        font-size: 2em;
+        font-weight:none;
+        color:white;
+    }
+    #lists{
+/*        border: 1px solid white;*/
+        float: right;
+        margin: 0 25px;
+/*        border: 0px;*/
+        padding: 0 35px;
+    }
+    ul li {
+        list-style: none;
+        float: left;
+        padding: 0 20px
+    }
+/*     ul li :hover{*/
+/*        background-color: rgba(255,240,0,0.1);*/
+/*        opacity: 1;*/
+         
+/*    }*/
+    ul li a{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: white;
+        font-family: cursive;
+    }
+   
+    
+    .box{
+        margin: auto 30px;
+/*        border: 1px solid white;*/
+        width: auto;
+        height: auto;  
+        padding: auto;
+        z-index: 2;
+        display: none;
+    }
+   
+    
+  /*   @keyframes example{
+         from {text-emphasis: none;}
+    to {text-emphasis:3em ;}
+    } */
+    
+    #subtitle{
+        font-family: monospace;
+        font-size: 34px;
+        color: white;
+/*          animation-name: example;*/
+/*        animation-duration: 1.5s;*/
+/*        animation-delay: 1.2s;*/
+        
+    }
+   
+    #subtitle:hover{
+        font-family: monospace;
+/*        font-size:35px;*/
+        color: yellow;
+      
+    }
+    #subsubtitle{
+        margin: 0 auto;
+        padding: 0;
+         color: white;; 
+        font-family:cursive;
+        font-size:0.9em; 
+        
+    }
+    #subsubtitle:hover{
+/*        font-family: monospace;*/
+/*        font-size: 40px;*/
+        color: yellow;
+        font-size:0.9em; 
+      
+    }
+    #links{
+        width: 650px;
+        height:71px;
+/*        border: 1px solid white;*/
+        margin: 0 50px ;
+    }
+    #links ul li{
+        float:left;
+        list-style: none;
+        padding:  0 65px;
+        margin: 0;
+    }
+    
+    #email{
+        margin: 0 auto;
+        color: white;
+    }
+    #email:hover{
+        color: yellow;
+    }
+    
+    #education  p a{
+        text-decoration: none;
+        font-size: 1.2em;
+        color: white;
+    }
+    #education  p a:hover{
+/*        text-decoration: none;*/
+/*        font-size: 1.2em;*/
+        color: yellow;
+    }
+     #hobbies  p a{
+        text-decoration: none;
+        font-size: 1.2em;
+        color: white;
+    }
+     #hobbies  p a:hover{
+/*        text-decoration: none;*/
+/*        font-size: 1.2em;*/
+        color: yellow;
+    }
+    
+</style>    
+    
+    
+</head>
+  
+<body>
+    
+    <div id="menu">
+    <div id="brand">
+        <img class="img-brand" src="logo1.png" id="rr1">
+        <img class="img-brand" src="profilepic1.jpg" id="rr2">
+        <h3><a href="#"> <span style="color: yellow; ">Paranjoy</span> Paul</a></h3>
+    
+    </div>
+    
+        <div id="lists">
+        <ul>
+        <li ><a href="#" ><div id="About">About</div></a></li>    
+          <li ><a href="#"><div id="Education">Education</div> </a></li>  
+            <li ><a href="#"><div id="Hobbies">Hobbies</div></a></li>
+            
+            </ul>
+        
+        </div>
+    
+   </div>
+<!--    <div class="box">-->
+   <div id="about" class="box" >
+       
+       <center>
+           <div class="pic">
+       <img class="img" src="profpic.png">
+        <img src="profilepic.jpg" style="border-radius: 50%" class="img1">
+           </div>
+           <p ><span id="subtitle">
+            EE Undergrad | Food-a-holic
+               </span>
+           </p>
+           <h3 ><span id="subsubtitle" >I LIKE TO BULID STUFFS</span></h3>
+<!--           <br>-->
+           <br>
+           <div id="links">
+            <ul>
+               <li>
+                   <div class="pic">  <a href="https://www.facebook.com/paranjoy.paul"><img class="img1" src="fb1.png" style="border-radius: 50%"> <img class="img" src="fb2.png" ></a></div>
+                </li> 
+                  <li>
+                      <div class="pic"> <a href="https://www.linkedin.com/in/paranjoy-paul-b9661b154"><img class="img1"  src="l1.png"style="border-radius: 50%" > <img class="img" src="l2.png" ></a></div>
+                </li>   
+                 <li>
+                     <div class="pic"> <a href="https://github.com/paranjoy"><img class="img1"  src="g1.png" style="border-radius: 50%;"><img class="img" src="g2.png" > </a></div>
+                </li>   
+               
+               
+               
+            </ul>
+           
+           </div>
+<!--           <br>-->
+<!--           <br>-->
+           <strong style="color: aliceblue;">Email</strong>: &nbsp; <a href="mailto:paulparanjoy23@gmail.com" style="text-decoration: none"><span id="email">paulparanjoy23@gmail.com</span></a>
+       </center>
+    
+    </div>
+
+<!--    </div>-->
+    
+    <!--    start of new division-->
+    
+    
+<!--    <div class="box">-->
+
+    <div id="education" class="box">
+    
+    <center>
+        
+        <p id="subtitle">
+              Studying never really gets old-fashioned!</p>
+                <hr width="60%" color="#777474"/>
+ 
+        <p style="color: aliceblue; font-family: cursive;font-size:1.6em ">
+            I'm in my junior year of undergratuate studies in the department of<span style="font-size:1.2em "> Electrical and Electronics Engineering</span> at <a href="https://nitt.edu">National Institute of Technology, Tiruchirappalli</a>, currently with a CGPA of *.** out of 10 scale. I plan to take minors in Comuter Science.
+            <br> 
+<!--        <hr width="30%" color="#777474"/>-->
+
+            I have done my secondary and higher secondary schooling from <a href="http://www.gardenhighschool.org">Garden High School</a>, Kolkata. I have secured 
+            **.** % and **.**% in my secondary and higher secondary examinations respectively.
+        <br>
+            <br>
+            <br>
+            P.S: <span style="color: yellow">"*"</span> can be any random number from 0 to 9.
+        </p>
+        
+    </center>
+    
+    
+    
+    
+    </div>
+<!--    </div>-->
+    
+<!--    <div class="box">-->
+    <div id="hobbies" class="box" >
+    
+    <center>
+        
+         <p id="subtitle">
+               Life gets Interesting here!</p>
+                <hr width="60%" color="#777474"/>
+         <p style="color: aliceblue; font-family: cursive;font-size:1.6em ">
+             I like solving challenges pertaining to <span style="font-size:1.2em ">Logic and Mathematics</span>. Recently, I've grown enthusiastic about <a href="https://en.wikipedia.org/wiki/Computer_program">Coding</a>, all thanks to the clubs of NITT, they changed my perspective about the world of Computers.
+
+             <br>  I love playing football and always try to make some time for this beautiful sport, however I fail most of the times(sighs!). I follow <a href="https://en.wikipedia.org/wiki/Real_Madrid_C.F.">Real Madrid football club</a> and rarely I'll miss their match.
+             <br>
+             And about food? I can't express in words how much I <span style="color: red">love</span> them. My favourite is Indian and Mughlai cusines. I'm trying to be a Food-Connoisseur.
+             <br>
+             If I'm not doing any of these above, I'll be hacking on random things or most probably sleeping.
+            
+             
+        </p>
+        
+        
+        
+        
+    </center>
+    
+    
+    
+    
+    </div>
+<!--    </div>-->
+    
+<script>
+    visible("about");
+    document.getElementById("About").style.color="yellow";
+//       document.getElementById("Education").style.color="white";
+//       document.getElementById("Hobbies").style.color="white";
+   document.getElementById("About").onclick=function(){
+       
+       document.getElementById("rr1").style.display="block";
+       document.getElementById("rr2").style.display="none";
+       
+       document.getElementById("About").style.color="yellow";
+       document.getElementById("Education").style.color="white";
+       document.getElementById("Hobbies").style.color="white";
+       visible("about");
+       hidden("education");
+       hidden("hobbies");
+       
+   } 
+//       document.getElementById("About").style.color="white";
+//       document.getElementById("Education").style.color="white";
+//       document.getElementById("Hobbies").style.color="white";
+   document.getElementById("Education").onclick=function(){
+       
+       document.getElementById("rr1").style.display="none";
+       document.getElementById("rr2").style.display="block";
+       
+       document.getElementById("About").style.color="white";
+       document.getElementById("Education").style.color="yellow";
+       document.getElementById("Hobbies").style.color="white";
+       visible("education");
+       hidden("about");
+       hidden("hobbies");
+   } 
+//       document.getElementById("About").style.color="white";
+//       document.getElementById("Education").style.color="white";
+//       document.getElementById("Hobbies").style.color="white";
+   document.getElementById("Hobbies").onclick=function(){
+       
+       document.getElementById("rr1").style.display="none";
+       document.getElementById("rr2").style.display="block";
+       
+       document.getElementById("About").style.color="white";
+       document.getElementById("Education").style.color="white";
+       document.getElementById("Hobbies").style.color="yellow";
+       visible("hobbies");
+       hidden("education");
+       hidden("about");
+   } 
+   function visible(id){
+       
+       
+       document.getElementById(id).style.display="block";
+       
+   }
+  function hidden(id){
+       
+       
+       document.getElementById(id).style.display= "none";
+       
+   }    
+    
+    
+    
+</script>    
+    
+</body>
+
+
+</html>
